@@ -1,0 +1,3128 @@
+{
+  "inMemoryTables": [
+    {
+      "data": [
+        {
+          "cr0da_serviceid": "c0ba1618-b5bc-431d-83cd-b0baf64abe7e",
+          "cr0da_name": "24/7 Primary Care",
+          "cr0da_description": "Round-the-clock primary healthcare services with experienced doctors",
+          "cr0da_iconname": "stethoscope",
+          "cr0da_available247": true,
+          "cr0da_displayorder": 1
+        },
+        {
+          "cr0da_serviceid": "09eba259-ed05-4bdc-8b82-1f9740c06938",
+          "cr0da_name": "Pharmacy",
+          "cr0da_description": "In-house pharmacy with wide range of medications and health products",
+          "cr0da_iconname": "pill",
+          "cr0da_available247": true,
+          "cr0da_displayorder": 2
+        },
+        {
+          "cr0da_serviceid": "a4efdce4-8558-43d0-a85c-2f8748a8b870",
+          "cr0da_name": "Lab Tests & Diagnostics",
+          "cr0da_description": "Comprehensive diagnostic services including blood tests, X-rays, and imaging",
+          "cr0da_iconname": "microscope",
+          "cr0da_available247": false,
+          "cr0da_displayorder": 3
+        },
+        {
+          "cr0da_serviceid": "9252860a-a6f4-4806-94e8-6e4cf47aaaed",
+          "cr0da_name": "Dental Care",
+          "cr0da_description": "Complete dental services including checkups, cleaning, and treatments",
+          "cr0da_iconname": "smile",
+          "cr0da_available247": false,
+          "cr0da_displayorder": 4
+        },
+        {
+          "cr0da_serviceid": "c2f71e86-9871-4d3f-8f74-1c1bb88e5648",
+          "cr0da_name": "Physiotherapy",
+          "cr0da_description": "Expert physiotherapy and rehabilitation services",
+          "cr0da_iconname": "activity",
+          "cr0da_available247": false,
+          "cr0da_displayorder": 5
+        },
+        {
+          "cr0da_serviceid": "bdef2113-e408-4b5b-82f5-78d3296b15db",
+          "cr0da_name": "Day Care Services",
+          "cr0da_description": "Short-stay medical procedures and minor surgeries that don't require overnight admission",
+          "cr0da_iconname": "bed",
+          "cr0da_available247": false,
+          "cr0da_displayorder": 6
+        },
+        {
+          "cr0da_serviceid": "928b25d5-3cee-4650-98bb-3c9a942b9c1d",
+          "cr0da_name": "Top Specialists",
+          "cr0da_description": "Access to specialist consultations across Cardiology, Dermatology, Pediatrics, and more",
+          "cr0da_iconname": "users",
+          "cr0da_available247": false,
+          "cr0da_displayorder": 7
+        }
+      ],
+      "entity": {
+        "MetadataId": "5ea2df42-263c-4a9d-aa82-2ae707d79597",
+        "Attributes": [
+          {
+            "MetadataId": "b3fac07c-10fe-4a64-a009-96a5028e46be",
+            "IsPrimaryName": true,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Name",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Name",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 850,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "b941e817-6ce6-4c93-8955-4dfd2e6a30cd",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Description",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Description",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "Memo",
+            "AttributeTypeName": {
+              "Value": "MemoType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 2000,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.MemoAttributeMetadata"
+          },
+          {
+            "MetadataId": "c53108e0-87ec-4004-9607-ac664b3020b8",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_IconName",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Icon Name",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 100,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "5e467034-ecef-47af-8cb8-b39a1522d3ce",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Available247",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Available 24/7",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "Boolean",
+            "AttributeTypeName": {
+              "Value": "BooleanType"
+            },
+            "DefaultValue": false,
+            "OptionSet": {
+              "IsCustomOptionSet": true,
+              "IsGlobal": false,
+              "IsCustomizable": {
+                "Value": true,
+                "CanBeChanged": false,
+                "ManagedPropertyLogicalName": "iscustomizable"
+              },
+              "IsManaged": false,
+              "ExternalTypeName": "",
+              "OptionSetType": "Boolean",
+              "Description": {
+                "LocalizedLabels": [
+                  {
+                    "Label": "",
+                    "LanguageCode": 1033
+                  }
+                ]
+              },
+              "DisplayName": {
+                "LocalizedLabels": [
+                  {
+                    "Label": "Available 24/7",
+                    "LanguageCode": 1033
+                  }
+                ]
+              },
+              "TrueOption": {
+                "Value": 1,
+                "IsManaged": false,
+                "ExternalValue": "",
+                "Label": {
+                  "LocalizedLabels": [
+                    {
+                      "Label": "Yes",
+                      "LanguageCode": 1033
+                    }
+                  ]
+                },
+                "Description": {
+                  "LocalizedLabels": []
+                }
+              },
+              "FalseOption": {
+                "Value": 0,
+                "IsManaged": false,
+                "ExternalValue": "",
+                "Label": {
+                  "LocalizedLabels": [
+                    {
+                      "Label": "No",
+                      "LanguageCode": 1033
+                    }
+                  ]
+                },
+                "Description": {
+                  "LocalizedLabels": []
+                }
+              }
+            },
+            "@odata.type": "Microsoft.Dynamics.CRM.BooleanAttributeMetadata"
+          },
+          {
+            "MetadataId": "124d11e6-9d77-4831-a24c-306ab5501bfc",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_DisplayOrder",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Display Order",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "Integer",
+            "AttributeTypeName": {
+              "Value": "IntegerType"
+            },
+            "MaxValue": 2147483647,
+            "MinValue": -2147483648,
+            "Format": "None",
+            "@odata.type": "Microsoft.Dynamics.CRM.IntegerAttributeMetadata"
+          }
+        ],
+        "OwnershipType": "UserOwned",
+        "PrimaryNameAttribute": "cr0da_name",
+        "SchemaName": "cr0da_Service",
+        "HasNotes": false,
+        "HasActivities": false,
+        "IsAvailableOffline": false,
+        "IsActivity": false,
+        "ActivityTypeMask": 0,
+        "IsSolutionAware": false,
+        "Description": {
+          "LocalizedLabels": [
+            {
+              "Label": "Healthcare services offered by Docty Clinics",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayCollectionName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Services",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Service",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "IsAuditEnabled": {
+          "Value": false
+        },
+        "IsValidForQueue": {
+          "Value": false
+        },
+        "IsConnectionsEnabled": {
+          "Value": false
+        },
+        "IsDuplicateDetectionEnabled": {
+          "Value": true
+        },
+        "IsDocumentManagementEnabled": false,
+        "EntityColor": null,
+        "IsRetentionEnabled": false,
+        "SyncToExternalSearchIndex": false,
+        "AutoRouteToOwnerQueue": false,
+        "IsSLAEnabled": false,
+        "IsQuickCreateEnabled": false,
+        "IsActivityParty": false,
+        "HasFeedback": false,
+        "AutoCreateAccessTeams": false,
+        "ChangeTrackingEnabled": false,
+        "IsKnowledgeManagementEnabled": false,
+        "EntityHelpUrlEnabled": false,
+        "EntityHelpUrl": null,
+        "IsMailMergeEnabled": {
+          "Value": true
+        },
+        "IsOfflineInMobileClient": {
+          "Value": false
+        },
+        "ManyToOneRelationships": [],
+        "@odata.type": "Microsoft.Dynamics.CRM.EntityMetadata"
+      },
+      "dataPayloadFormat": "Dataverse",
+      "tableSourceType": "DataModelProposal"
+    },
+    {
+      "data": [
+        {
+          "cr0da_locationid": "3e070715-453f-41c3-b79c-ae9775d56282",
+          "cr0da_name": "Docty Clinics Lanco Hills",
+          "cr0da_address": "Plot No. 123, Road No. 36, Jubilee Hills, Hyderabad, Telangana 500033",
+          "cr0da_area": "Lanco Hills",
+          "cr0da_phone": "+91 40 4567 8901",
+          "cr0da_open247": true,
+          "cr0da_imageurl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/047c47bb-c809-4176-9b95-2895f274a091/thumbnails/large.jpg",
+          "cr0da_services": "Primary Care, Pharmacy, Lab Tests, Dental, Physiotherapy, Day Care Services, Top Specialists"
+        },
+        {
+          "cr0da_locationid": "0d364264-746b-484c-abc3-64663730f736",
+          "cr0da_name": "Docty Clinics Manikonda",
+          "cr0da_address": "Survey No. 45, Opp. Botanical Garden, Manikonda, Hyderabad, Telangana 500089",
+          "cr0da_area": "Manikonda",
+          "cr0da_phone": "+91 40 4567 8902",
+          "cr0da_open247": true,
+          "cr0da_imageurl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/047c47bb-c809-4176-9b95-2895f274a091/thumbnails/large.jpg",
+          "cr0da_services": "Primary Care, Pharmacy, Lab Tests, Dental, Top Specialists"
+        },
+        {
+          "cr0da_locationid": "79647bc1-2497-49ed-8883-86c5c410950e",
+          "cr0da_name": "Docty Clinics Nallagandla",
+          "cr0da_address": "H.No. 2-98/3, KPHB Phase 9, Nallagandla, Hyderabad, Telangana 500019",
+          "cr0da_area": "Nallagandla",
+          "cr0da_phone": "+91 40 4567 8903",
+          "cr0da_open247": false,
+          "cr0da_imageurl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/047c47bb-c809-4176-9b95-2895f274a091/thumbnails/large.jpg",
+          "cr0da_services": "Primary Care, Pharmacy, Lab Tests, Physiotherapy"
+        },
+        {
+          "cr0da_locationid": "344c7d62-1269-4874-985a-7933b68408d4",
+          "cr0da_name": "Docty Clinics Sainikpuri",
+          "cr0da_address": "Plot No. 67, Sainikpuri Main Road, Secunderabad, Telangana 500094",
+          "cr0da_area": "Sainikpuri",
+          "cr0da_phone": "+91 40 4567 8904",
+          "cr0da_open247": false,
+          "cr0da_imageurl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/047c47bb-c809-4176-9b95-2895f274a091/thumbnails/large.jpg",
+          "cr0da_services": "Primary Care, Lab Tests, Dental, Top Specialists"
+        },
+        {
+          "cr0da_locationid": "eaada8dd-b954-4f2a-a9b6-aa8495ea23a7",
+          "cr0da_name": "Docty Clinics Gachibowli",
+          "cr0da_address": "Survey No. 78, DLF Cyber City, Gachibowli, Hyderabad, Telangana 500032",
+          "cr0da_area": "Gachibowli",
+          "cr0da_phone": "+91 40 4567 8905",
+          "cr0da_open247": true,
+          "cr0da_imageurl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/047c47bb-c809-4176-9b95-2895f274a091/thumbnails/large.jpg",
+          "cr0da_services": "Primary Care, Pharmacy, Lab Tests, Day Care Services, Top Specialists"
+        }
+      ],
+      "entity": {
+        "MetadataId": "87563554-4f68-4da4-bbf7-699b8832e7d2",
+        "Attributes": [
+          {
+            "MetadataId": "55fa247f-be83-4415-9b91-d657e5902224",
+            "IsPrimaryName": true,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Name",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Name",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 850,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "b29a1fab-3ff3-4dc0-a402-d844c05ad66f",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Address",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Address",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "Memo",
+            "AttributeTypeName": {
+              "Value": "MemoType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 2000,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.MemoAttributeMetadata"
+          },
+          {
+            "MetadataId": "32f2e4bf-362e-4d55-a625-0ea5e98d578b",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Area",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Area",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 100,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "be85283e-d770-4e4f-96cd-31c35f3e4987",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Phone",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Phone",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 100,
+            "FormatName": {
+              "Value": "Phone"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "7d2424c5-eb91-462c-966f-d3a236924576",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Open247",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Open 24/7",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "Boolean",
+            "AttributeTypeName": {
+              "Value": "BooleanType"
+            },
+            "DefaultValue": false,
+            "OptionSet": {
+              "IsCustomOptionSet": true,
+              "IsGlobal": false,
+              "IsCustomizable": {
+                "Value": true,
+                "CanBeChanged": false,
+                "ManagedPropertyLogicalName": "iscustomizable"
+              },
+              "IsManaged": false,
+              "ExternalTypeName": "",
+              "OptionSetType": "Boolean",
+              "Description": {
+                "LocalizedLabels": [
+                  {
+                    "Label": "",
+                    "LanguageCode": 1033
+                  }
+                ]
+              },
+              "DisplayName": {
+                "LocalizedLabels": [
+                  {
+                    "Label": "Open 24/7",
+                    "LanguageCode": 1033
+                  }
+                ]
+              },
+              "TrueOption": {
+                "Value": 1,
+                "IsManaged": false,
+                "ExternalValue": "",
+                "Label": {
+                  "LocalizedLabels": [
+                    {
+                      "Label": "Yes",
+                      "LanguageCode": 1033
+                    }
+                  ]
+                },
+                "Description": {
+                  "LocalizedLabels": []
+                }
+              },
+              "FalseOption": {
+                "Value": 0,
+                "IsManaged": false,
+                "ExternalValue": "",
+                "Label": {
+                  "LocalizedLabels": [
+                    {
+                      "Label": "No",
+                      "LanguageCode": 1033
+                    }
+                  ]
+                },
+                "Description": {
+                  "LocalizedLabels": []
+                }
+              }
+            },
+            "@odata.type": "Microsoft.Dynamics.CRM.BooleanAttributeMetadata"
+          },
+          {
+            "MetadataId": "e553a004-fe89-4c72-bbbe-66ab2f177269",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_ImageUrl",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "ImageUrl",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "Memo",
+            "AttributeTypeName": {
+              "Value": "MemoType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 2000,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.MemoAttributeMetadata"
+          },
+          {
+            "MetadataId": "af8e03a3-bfa5-4f3b-9aba-db1cc0186ad4",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Services",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Services",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "Memo",
+            "AttributeTypeName": {
+              "Value": "MemoType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 2000,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.MemoAttributeMetadata"
+          }
+        ],
+        "OwnershipType": "UserOwned",
+        "PrimaryNameAttribute": "cr0da_name",
+        "SchemaName": "cr0da_Location",
+        "HasNotes": false,
+        "HasActivities": false,
+        "IsAvailableOffline": false,
+        "IsActivity": false,
+        "ActivityTypeMask": 0,
+        "IsSolutionAware": false,
+        "Description": {
+          "LocalizedLabels": [
+            {
+              "Label": "Docty Clinics locations across Hyderabad",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayCollectionName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Locations",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Location",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "IsAuditEnabled": {
+          "Value": false
+        },
+        "IsValidForQueue": {
+          "Value": false
+        },
+        "IsConnectionsEnabled": {
+          "Value": false
+        },
+        "IsDuplicateDetectionEnabled": {
+          "Value": true
+        },
+        "IsDocumentManagementEnabled": false,
+        "EntityColor": null,
+        "IsRetentionEnabled": false,
+        "SyncToExternalSearchIndex": false,
+        "AutoRouteToOwnerQueue": false,
+        "IsSLAEnabled": false,
+        "IsQuickCreateEnabled": false,
+        "IsActivityParty": false,
+        "HasFeedback": false,
+        "AutoCreateAccessTeams": false,
+        "ChangeTrackingEnabled": false,
+        "IsKnowledgeManagementEnabled": false,
+        "EntityHelpUrlEnabled": false,
+        "EntityHelpUrl": null,
+        "IsMailMergeEnabled": {
+          "Value": true
+        },
+        "IsOfflineInMobileClient": {
+          "Value": false
+        },
+        "ManyToOneRelationships": [],
+        "@odata.type": "Microsoft.Dynamics.CRM.EntityMetadata"
+      },
+      "dataPayloadFormat": "Dataverse",
+      "tableSourceType": "DataModelProposal"
+    },
+    {
+      "data": [
+        {
+          "cr0da_healthpackageid": "3aff9ed7-a050-475c-a052-fb3ba7b97423",
+          "cr0da_name": "Monsoon Health Ready Package",
+          "cr0da_description": "Comprehensive health screening for monsoon season including immunity check, vitamin levels, and common infection markers",
+          "cr0da_priceinr": 1499,
+          "cr0da_targetaudience": 504290004,
+          "cr0da_imageurl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/b79de5b2-dd22-4cc7-9287-b3027e620957/thumbnails/large.jpg"
+        },
+        {
+          "cr0da_healthpackageid": "521e79e2-1337-4e61-8c59-9226e9a4a1b7",
+          "cr0da_name": "Women's Health Check",
+          "cr0da_description": "Complete wellness package for women including hormonal profile, bone density, anemia screening, and gynecological consultation",
+          "cr0da_priceinr": 1799,
+          "cr0da_targetaudience": 504290000,
+          "cr0da_imageurl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/3a025d89-7f2d-4187-b35a-3ba78528a380/thumbnails/large.jpg"
+        },
+        {
+          "cr0da_healthpackageid": "3ed7a63e-0c8f-4c4a-9cc7-19a3c406522b",
+          "cr0da_name": "Men's Health Check",
+          "cr0da_description": "Comprehensive male health package with cardiac risk assessment, diabetes screening, liver and kidney function tests",
+          "cr0da_priceinr": 1799,
+          "cr0da_targetaudience": 504290001,
+          "cr0da_imageurl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/85be979d-428f-4a64-bdcf-de9da9204bed/thumbnails/large.jpg"
+        },
+        {
+          "cr0da_healthpackageid": "b1ecf469-8868-4bd1-966b-57a39dc0d325",
+          "cr0da_name": "Child Wellness Package",
+          "cr0da_description": "Complete health assessment for children including growth monitoring, vaccination check, and developmental screening",
+          "cr0da_priceinr": 1299,
+          "cr0da_targetaudience": 504290002,
+          "cr0da_imageurl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/c9ade1ea-e81a-4dbe-a94e-71059c7eef98/thumbnails/large.jpg"
+        },
+        {
+          "cr0da_healthpackageid": "2344e01a-6fa6-4210-ac25-50e79458cea8",
+          "cr0da_name": "Senior Citizen Care Package",
+          "cr0da_description": "Specialized health screening for seniors including cardiac evaluation, arthritis screening, and cognitive assessment",
+          "cr0da_priceinr": 1599,
+          "cr0da_targetaudience": 504290003,
+          "cr0da_imageurl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/bff15180-3389-4a75-b3d8-896ce2918891/thumbnails/large.jpg"
+        }
+      ],
+      "entity": {
+        "MetadataId": "bc62da22-c49b-4e3d-99f5-3cb87e47161a",
+        "Attributes": [
+          {
+            "MetadataId": "70be9309-368a-4d80-a2c5-435b3af3672f",
+            "IsPrimaryName": true,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Name",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Name",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 850,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "4796b8a2-4bc1-4a19-8a98-c2b7ea4e17f2",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Description",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Description",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "Memo",
+            "AttributeTypeName": {
+              "Value": "MemoType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 2000,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.MemoAttributeMetadata"
+          },
+          {
+            "MetadataId": "f290b29d-3c77-41a8-9205-4c411931a163",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_PriceINR",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Price (INR)",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "Money",
+            "AttributeTypeName": {
+              "Value": "MoneyType"
+            },
+            "ImeMode": "Auto",
+            "MaxValue": 922337203685477,
+            "MinValue": -922337203685477,
+            "PrecisionSource": 2,
+            "Precision": 2,
+            "IsBaseCurrency": false,
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata"
+          },
+          {
+            "MetadataId": "3c2eb47e-8742-4163-8d13-7ca57e8c89c4",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_TargetAudience",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Target Audience",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "Picklist",
+            "AttributeTypeName": {
+              "Value": "PicklistType"
+            },
+            "DefaultFormValue": -1,
+            "OptionSet": {
+              "IsCustomOptionSet": true,
+              "IsGlobal": false,
+              "IsCustomizable": {
+                "Value": true,
+                "CanBeChanged": false,
+                "ManagedPropertyLogicalName": "iscustomizable"
+              },
+              "ExternalTypeName": "",
+              "OptionSetType": "Picklist",
+              "Description": {
+                "LocalizedLabels": [
+                  {
+                    "Label": "",
+                    "LanguageCode": 1033
+                  }
+                ]
+              },
+              "DisplayName": {
+                "LocalizedLabels": [
+                  {
+                    "Label": "Target Audience",
+                    "LanguageCode": 1033
+                  }
+                ]
+              },
+              "Options": [
+                {
+                  "Value": 504290000,
+                  "ExternalValue": "",
+                  "IsManaged": false,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Women",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Value": 504290001,
+                  "ExternalValue": "",
+                  "IsManaged": false,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Men",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Value": 504290002,
+                  "ExternalValue": "",
+                  "IsManaged": false,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Children",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Value": 504290003,
+                  "ExternalValue": "",
+                  "IsManaged": false,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Seniors",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Value": 504290004,
+                  "ExternalValue": "",
+                  "IsManaged": false,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "All Ages",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "@odata.type": "Microsoft.Dynamics.CRM.PicklistAttributeMetadata"
+          },
+          {
+            "MetadataId": "682376e1-67b0-4594-b5d8-e75bb7995d76",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_ImageUrl",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "ImageUrl",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "Memo",
+            "AttributeTypeName": {
+              "Value": "MemoType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 2000,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.MemoAttributeMetadata"
+          }
+        ],
+        "OwnershipType": "UserOwned",
+        "PrimaryNameAttribute": "cr0da_name",
+        "SchemaName": "cr0da_HealthPackage",
+        "HasNotes": false,
+        "HasActivities": false,
+        "IsAvailableOffline": false,
+        "IsActivity": false,
+        "ActivityTypeMask": 0,
+        "IsSolutionAware": false,
+        "Description": {
+          "LocalizedLabels": [
+            {
+              "Label": "Health checkup and wellness packages offered by Docty Clinics",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayCollectionName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Health Packages",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Health Package",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "IsAuditEnabled": {
+          "Value": false
+        },
+        "IsValidForQueue": {
+          "Value": false
+        },
+        "IsConnectionsEnabled": {
+          "Value": false
+        },
+        "IsDuplicateDetectionEnabled": {
+          "Value": true
+        },
+        "IsDocumentManagementEnabled": false,
+        "EntityColor": null,
+        "IsRetentionEnabled": false,
+        "SyncToExternalSearchIndex": false,
+        "AutoRouteToOwnerQueue": false,
+        "IsSLAEnabled": false,
+        "IsQuickCreateEnabled": false,
+        "IsActivityParty": false,
+        "HasFeedback": false,
+        "AutoCreateAccessTeams": false,
+        "ChangeTrackingEnabled": false,
+        "IsKnowledgeManagementEnabled": false,
+        "EntityHelpUrlEnabled": false,
+        "EntityHelpUrl": null,
+        "IsMailMergeEnabled": {
+          "Value": true
+        },
+        "IsOfflineInMobileClient": {
+          "Value": false
+        },
+        "ManyToOneRelationships": [],
+        "@odata.type": "Microsoft.Dynamics.CRM.EntityMetadata"
+      },
+      "dataPayloadFormat": "Dataverse",
+      "tableSourceType": "DataModelProposal"
+    },
+    {
+      "data": [
+        {
+          "cr0da_healthplanid": "63facde0-0504-4b02-bfba-92e199ebc49e",
+          "cr0da_name": "Docty Total Care",
+          "cr0da_description": "Comprehensive annual healthcare membership with unlimited consultations and diagnostic benefits",
+          "cr0da_priceperyearinr": 999,
+          "cr0da_benefits": "Unlimited Primary Care Consultations, 20% Discount on Lab Tests, Free Annual Health Checkup, Priority Appointment Booking, 24/7 Telemedicine Access"
+        },
+        {
+          "cr0da_healthplanid": "fe9ffb52-52f2-4011-bbd2-2a7edea2ae81",
+          "cr0da_name": "Docty Family Care",
+          "cr0da_description": "Family health plan covering up to 4 members with comprehensive benefits",
+          "cr0da_priceperyearinr": 2499,
+          "cr0da_benefits": "Coverage for 4 Family Members, Unlimited Primary Care for All, 25% Discount on Packages, Free Dental Checkup Twice a Year, Emergency Care Discount"
+        },
+        {
+          "cr0da_healthplanid": "6eb56793-1e5c-4f80-b4f2-863133c6dfeb",
+          "cr0da_name": "Docty Senior Care Plus",
+          "cr0da_description": "Specialized plan for senior citizens with enhanced coverage",
+          "cr0da_priceperyearinr": 1499,
+          "cr0da_benefits": "Geriatric Specialist Consultations, Monthly Health Monitoring, 30% Discount on Diagnostics, Free Home Visit Once a Month, Caregiver Support Helpline"
+        },
+        {
+          "cr0da_healthplanid": "21de6496-354f-4a71-9f26-ca9dc8fb2ef7",
+          "cr0da_name": "Docty Wellness Basic",
+          "cr0da_description": "Entry-level wellness plan for young professionals",
+          "cr0da_priceperyearinr": 599,
+          "cr0da_benefits": "10 Primary Care Consultations Per Year, 15% Discount on Lab Tests, Quarterly Health Tips and Reminders, Telemedicine Access During Weekdays"
+        },
+        {
+          "cr0da_healthplanid": "cfcde7bf-81e0-4cfd-ae43-2a790281d083",
+          "cr0da_name": "Docty Premium Care",
+          "cr0da_description": "Premium healthcare membership with VIP services and benefits",
+          "cr0da_priceperyearinr": 1999,
+          "cr0da_benefits": "Unlimited Consultations All Specialties, 40% Discount on All Services, Dedicated Health Manager, Home Sample Collection, Annual Executive Health Checkup"
+        }
+      ],
+      "entity": {
+        "MetadataId": "00ca1d2a-e0c4-4856-8191-7dae9b3e509a",
+        "Attributes": [
+          {
+            "MetadataId": "e14e04e1-b8f1-497a-81a6-ad6e388108fa",
+            "IsPrimaryName": true,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Name",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Name",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 850,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "daab8cc9-c765-4ffc-b6d1-cae4f9ca5dc6",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Description",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Description",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "Memo",
+            "AttributeTypeName": {
+              "Value": "MemoType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 2000,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.MemoAttributeMetadata"
+          },
+          {
+            "MetadataId": "35019d48-6e16-4167-a598-891f26de2caf",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_PricePerYearINR",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Price Per Year (INR)",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "Money",
+            "AttributeTypeName": {
+              "Value": "MoneyType"
+            },
+            "ImeMode": "Auto",
+            "MaxValue": 922337203685477,
+            "MinValue": -922337203685477,
+            "PrecisionSource": 2,
+            "Precision": 2,
+            "IsBaseCurrency": false,
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata"
+          },
+          {
+            "MetadataId": "7dd06eb4-2a20-4ac1-97fe-81bfc7b764c3",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Benefits",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Benefits",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "Memo",
+            "AttributeTypeName": {
+              "Value": "MemoType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 2000,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.MemoAttributeMetadata"
+          }
+        ],
+        "OwnershipType": "UserOwned",
+        "PrimaryNameAttribute": "cr0da_name",
+        "SchemaName": "cr0da_HealthPlan",
+        "HasNotes": false,
+        "HasActivities": false,
+        "IsAvailableOffline": false,
+        "IsActivity": false,
+        "ActivityTypeMask": 0,
+        "IsSolutionAware": false,
+        "Description": {
+          "LocalizedLabels": [
+            {
+              "Label": "Annual membership subscription plans for healthcare services",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayCollectionName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Health Plans",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Health Plan",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "IsAuditEnabled": {
+          "Value": false
+        },
+        "IsValidForQueue": {
+          "Value": false
+        },
+        "IsConnectionsEnabled": {
+          "Value": false
+        },
+        "IsDuplicateDetectionEnabled": {
+          "Value": true
+        },
+        "IsDocumentManagementEnabled": false,
+        "EntityColor": null,
+        "IsRetentionEnabled": false,
+        "SyncToExternalSearchIndex": false,
+        "AutoRouteToOwnerQueue": false,
+        "IsSLAEnabled": false,
+        "IsQuickCreateEnabled": false,
+        "IsActivityParty": false,
+        "HasFeedback": false,
+        "AutoCreateAccessTeams": false,
+        "ChangeTrackingEnabled": false,
+        "IsKnowledgeManagementEnabled": false,
+        "EntityHelpUrlEnabled": false,
+        "EntityHelpUrl": null,
+        "IsMailMergeEnabled": {
+          "Value": true
+        },
+        "IsOfflineInMobileClient": {
+          "Value": false
+        },
+        "ManyToOneRelationships": [],
+        "@odata.type": "Microsoft.Dynamics.CRM.EntityMetadata"
+      },
+      "dataPayloadFormat": "Dataverse",
+      "tableSourceType": "DataModelProposal"
+    },
+    {
+      "data": [
+        {
+          "cr0da_appointmentid": "2e22edcd-2d2e-4169-a9a9-68bd7af761c7",
+          "cr0da_appointmentname": "Primary Care - Rajesh Kumar",
+          "cr0da_patientname": "Rajesh Kumar",
+          "cr0da_patientphone": "+91 98765 43210",
+          "cr0da_patientemail": "rajesh.kumar@example.com",
+          "cr0da_Service@odata.bind": "/cr0da_services(c0ba1618-b5bc-431d-83cd-b0baf64abe7e)",
+          "cr0da_Location@odata.bind": "/cr0da_locations(3e070715-453f-41c3-b79c-ae9775d56282)",
+          "cr0da_appointmentdate": "2026-05-25T10:00:00.000Z",
+          "cr0da_status": 504290001,
+          "cr0da_notes": "Regular checkup and fever symptoms",
+          "cr0da_createddate": "2026-05-20T14:30:00.000Z"
+        },
+        {
+          "cr0da_appointmentid": "f781970e-fb7b-471c-ae17-8979d02d08ca",
+          "cr0da_appointmentname": "Dental - Priya Sharma",
+          "cr0da_patientname": "Priya Sharma",
+          "cr0da_patientphone": "+91 98765 43211",
+          "cr0da_patientemail": "priya.sharma@example.com",
+          "cr0da_Service@odata.bind": "/cr0da_services(9252860a-a6f4-4806-94e8-6e4cf47aaaed)",
+          "cr0da_Location@odata.bind": "/cr0da_locations(0d364264-746b-484c-abc3-64663730f736)",
+          "cr0da_appointmentdate": "2026-05-26T15:30:00.000Z",
+          "cr0da_status": 504290000,
+          "cr0da_notes": "Tooth pain and cleaning required",
+          "cr0da_createddate": "2026-05-21T09:15:00.000Z"
+        },
+        {
+          "cr0da_appointmentid": "a4a96eee-00a5-42ef-b10b-1f2eee90eaee",
+          "cr0da_appointmentname": "Lab Tests - Amit Patel",
+          "cr0da_patientname": "Amit Patel",
+          "cr0da_patientphone": "+91 98765 43212",
+          "cr0da_patientemail": "amit.patel@example.com",
+          "cr0da_Service@odata.bind": "/cr0da_services(a4efdce4-8558-43d0-a85c-2f8748a8b870)",
+          "cr0da_Location@odata.bind": "/cr0da_locations(3e070715-453f-41c3-b79c-ae9775d56282)",
+          "cr0da_appointmentdate": "2026-05-24T09:00:00.000Z",
+          "cr0da_status": 504290002,
+          "cr0da_notes": "Blood test and X-ray completed",
+          "cr0da_createddate": "2026-05-19T16:45:00.000Z"
+        },
+        {
+          "cr0da_appointmentid": "498357c6-9a49-400c-a128-9436be6c291f",
+          "cr0da_appointmentname": "Physiotherapy - Sunita Reddy",
+          "cr0da_patientname": "Sunita Reddy",
+          "cr0da_patientphone": "+91 98765 43213",
+          "cr0da_patientemail": "sunita.reddy@example.com",
+          "cr0da_Service@odata.bind": "/cr0da_services(c2f71e86-9871-4d3f-8f74-1c1bb88e5648)",
+          "cr0da_Location@odata.bind": "/cr0da_locations(79647bc1-2497-49ed-8883-86c5c410950e)",
+          "cr0da_appointmentdate": "2026-05-27T11:00:00.000Z",
+          "cr0da_status": 504290001,
+          "cr0da_notes": "Back pain treatment session 3 of 10",
+          "cr0da_createddate": "2026-05-22T10:20:00.000Z"
+        },
+        {
+          "cr0da_appointmentid": "5f817796-8697-4bca-8d5d-e07d68dcda54",
+          "cr0da_appointmentname": "Primary Care - Mohammed Ali",
+          "cr0da_patientname": "Mohammed Ali",
+          "cr0da_patientphone": "+91 98765 43214",
+          "cr0da_patientemail": "mohammed.ali@example.com",
+          "cr0da_Service@odata.bind": "/cr0da_services(c0ba1618-b5bc-431d-83cd-b0baf64abe7e)",
+          "cr0da_Location@odata.bind": "/cr0da_locations(344c7d62-1269-4874-985a-7933b68408d4)",
+          "cr0da_appointmentdate": "2026-05-23T16:00:00.000Z",
+          "cr0da_status": 504290003,
+          "cr0da_notes": "Patient requested cancellation due to travel",
+          "cr0da_createddate": "2026-05-20T11:00:00.000Z"
+        }
+      ],
+      "entity": {
+        "MetadataId": "8d88ed8a-a159-48a8-81de-ca9e58d139c2",
+        "Attributes": [
+          {
+            "MetadataId": "8521b152-a0a5-45bd-8011-052fbf2932f3",
+            "IsPrimaryName": true,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_AppointmentName",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Appointment Name",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 850,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "9409494f-7f84-47d0-8ad7-21548665ca42",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_PatientName",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Patient Name",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 100,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "136fa89a-c22a-4ac6-aff8-a5e3753f69f7",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_PatientPhone",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Patient Phone",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 100,
+            "FormatName": {
+              "Value": "Phone"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "2dc00cad-781c-4184-9a90-354ab445675b",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_PatientEmail",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Patient Email",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 100,
+            "FormatName": {
+              "Value": "Email"
+            },
+            "Format": "Email",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "a66f515a-c08b-4672-898b-8113e3ed6892",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Service",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Service",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "Lookup",
+            "AttributeTypeName": {
+              "Value": "LookupType"
+            },
+            "Targets": [
+              "cr0da_service"
+            ],
+            "@odata.type": "Microsoft.Dynamics.CRM.LookupAttributeMetadata"
+          },
+          {
+            "MetadataId": "02358348-206a-44ec-ab44-5fb36b842976",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Location",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Location",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "Lookup",
+            "AttributeTypeName": {
+              "Value": "LookupType"
+            },
+            "Targets": [
+              "cr0da_location"
+            ],
+            "@odata.type": "Microsoft.Dynamics.CRM.LookupAttributeMetadata"
+          },
+          {
+            "MetadataId": "45f2b632-8f3a-4586-ba00-1d28296b0f33",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_AppointmentDate",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Appointment Date",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "ImeMode": "Auto",
+            "AttributeType": "DateTime",
+            "AttributeTypeName": {
+              "Value": "DateTimeType"
+            },
+            "Format": "DateAndTime",
+            "DateTimeBehavior": {
+              "Value": "UserLocal"
+            },
+            "CanChangeDateTimeBehavior": {
+              "Value": true,
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifybehavior"
+            },
+            "@odata.type": "Microsoft.Dynamics.CRM.DateTimeAttributeMetadata"
+          },
+          {
+            "MetadataId": "7c7e1789-d343-4e96-b21a-322e3a84bbd0",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Status",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Status",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "Picklist",
+            "AttributeTypeName": {
+              "Value": "PicklistType"
+            },
+            "DefaultFormValue": -1,
+            "OptionSet": {
+              "IsCustomOptionSet": true,
+              "IsGlobal": false,
+              "IsCustomizable": {
+                "Value": true,
+                "CanBeChanged": false,
+                "ManagedPropertyLogicalName": "iscustomizable"
+              },
+              "ExternalTypeName": "",
+              "OptionSetType": "Picklist",
+              "Description": {
+                "LocalizedLabels": [
+                  {
+                    "Label": "",
+                    "LanguageCode": 1033
+                  }
+                ]
+              },
+              "DisplayName": {
+                "LocalizedLabels": [
+                  {
+                    "Label": "Status",
+                    "LanguageCode": 1033
+                  }
+                ]
+              },
+              "Options": [
+                {
+                  "Value": 504290000,
+                  "ExternalValue": "",
+                  "IsManaged": false,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Pending",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Value": 504290001,
+                  "ExternalValue": "",
+                  "IsManaged": false,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Confirmed",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Value": 504290002,
+                  "ExternalValue": "",
+                  "IsManaged": false,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Completed",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Value": 504290003,
+                  "ExternalValue": "",
+                  "IsManaged": false,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Cancelled",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "@odata.type": "Microsoft.Dynamics.CRM.PicklistAttributeMetadata"
+          },
+          {
+            "MetadataId": "0ce4dfce-aa6c-48ac-a47b-f774778b3d43",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Notes",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Notes",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "Memo",
+            "AttributeTypeName": {
+              "Value": "MemoType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 2000,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.MemoAttributeMetadata"
+          },
+          {
+            "MetadataId": "b522eb03-84e2-433a-ac46-96cf751ee5f2",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_CreatedDate",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Created Date",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "ImeMode": "Auto",
+            "AttributeType": "DateTime",
+            "AttributeTypeName": {
+              "Value": "DateTimeType"
+            },
+            "Format": "DateAndTime",
+            "DateTimeBehavior": {
+              "Value": "UserLocal"
+            },
+            "CanChangeDateTimeBehavior": {
+              "Value": true,
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifybehavior"
+            },
+            "@odata.type": "Microsoft.Dynamics.CRM.DateTimeAttributeMetadata"
+          }
+        ],
+        "OwnershipType": "UserOwned",
+        "PrimaryNameAttribute": "cr0da_appointmentname",
+        "SchemaName": "cr0da_Appointment",
+        "HasNotes": false,
+        "HasActivities": false,
+        "IsAvailableOffline": false,
+        "IsActivity": false,
+        "ActivityTypeMask": 0,
+        "IsSolutionAware": false,
+        "Description": {
+          "LocalizedLabels": [
+            {
+              "Label": "Patient appointment bookings at Docty Clinics",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayCollectionName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Appointments",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Appointment",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "IsAuditEnabled": {
+          "Value": false
+        },
+        "IsValidForQueue": {
+          "Value": false
+        },
+        "IsConnectionsEnabled": {
+          "Value": false
+        },
+        "IsDuplicateDetectionEnabled": {
+          "Value": true
+        },
+        "IsDocumentManagementEnabled": false,
+        "EntityColor": null,
+        "IsRetentionEnabled": false,
+        "SyncToExternalSearchIndex": false,
+        "AutoRouteToOwnerQueue": false,
+        "IsSLAEnabled": false,
+        "IsQuickCreateEnabled": false,
+        "IsActivityParty": false,
+        "HasFeedback": false,
+        "AutoCreateAccessTeams": false,
+        "ChangeTrackingEnabled": false,
+        "IsKnowledgeManagementEnabled": false,
+        "EntityHelpUrlEnabled": false,
+        "EntityHelpUrl": null,
+        "IsMailMergeEnabled": {
+          "Value": true
+        },
+        "IsOfflineInMobileClient": {
+          "Value": false
+        },
+        "ManyToOneRelationships": [
+          {
+            "MetadataId": "91c7bb87-acb4-4f02-a4d2-459b02368868",
+            "SchemaName": "cr0da_Appointment_cr0da_Service_cr0da_Service",
+            "ReferencingAttribute": "cr0da_service",
+            "ReferencedEntity": "cr0da_service",
+            "ReferencingEntity": "cr0da_appointment",
+            "ReferencedAttribute": "cr0da_serviceid",
+            "ReferencingEntityNavigationPropertyName": "cr0da_Service",
+            "RelationshipType": "OneToManyRelationship",
+            "IsCustomRelationship": true,
+            "IsValidForAdvancedFind": true,
+            "IsCustomizable": {
+              "Value": true,
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "iscustomizable"
+            },
+            "CascadeConfiguration": {
+              "Assign": "NoCascade",
+              "Delete": "RemoveLink",
+              "Merge": "NoCascade",
+              "Reparent": "NoCascade",
+              "Share": "NoCascade",
+              "Unshare": "NoCascade",
+              "RollupView": "NoCascade",
+              "Archive": "RemoveLink"
+            },
+            "@odata.type": "Microsoft.Dynamics.CRM.OneToManyRelationshipMetadata"
+          },
+          {
+            "MetadataId": "0fc17a71-1175-4c19-b52d-8a7a51f15614",
+            "SchemaName": "cr0da_Appointment_cr0da_Location_cr0da_Location",
+            "ReferencingAttribute": "cr0da_location",
+            "ReferencedEntity": "cr0da_location",
+            "ReferencingEntity": "cr0da_appointment",
+            "ReferencedAttribute": "cr0da_locationid",
+            "ReferencingEntityNavigationPropertyName": "cr0da_Location",
+            "RelationshipType": "OneToManyRelationship",
+            "IsCustomRelationship": true,
+            "IsValidForAdvancedFind": true,
+            "IsCustomizable": {
+              "Value": true,
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "iscustomizable"
+            },
+            "CascadeConfiguration": {
+              "Assign": "NoCascade",
+              "Delete": "RemoveLink",
+              "Merge": "NoCascade",
+              "Reparent": "NoCascade",
+              "Share": "NoCascade",
+              "Unshare": "NoCascade",
+              "RollupView": "NoCascade",
+              "Archive": "RemoveLink"
+            },
+            "@odata.type": "Microsoft.Dynamics.CRM.OneToManyRelationshipMetadata"
+          }
+        ],
+        "@odata.type": "Microsoft.Dynamics.CRM.EntityMetadata"
+      },
+      "dataPayloadFormat": "Dataverse",
+      "tableSourceType": "DataModelProposal"
+    },
+    {
+      "data": [
+        {
+          "cr0da_doctorid": "480ea856-6fe5-4327-ab6e-5e857dd854f4",
+          "cr0da_name": "Dr. Arun Sharma",
+          "cr0da_specialty": "General Physician",
+          "cr0da_qualifications": "MBBS, MD",
+          "cr0da_experienceyears": 15,
+          "cr0da_imageurl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/001a1d62-9f2a-4f5d-b65d-aa0e3696aed1/th",
+          "cr0da_Location@odata.bind": "/cr0da_locations(3e070715-453f-41c3-b79c-ae9775d56282)",
+          "cr0da_nextavailableslot": "Today, 3:00 PM",
+          "cr0da_isavailable": true,
+          "cr0da_consultationfee": 500,
+          "cr0da_languages": "English, Hindi, Telugu",
+          "cr0da_bio": "Dr. Arun Sharma is a highly experienced General Physician with 15 years of practice. He specializes in preventive care, chronic disease management, and acute illness treatment. Known for his compassionate approach and thorough diagnostic skills.",
+          "cr0da_registrationnumber": "MCI Reg. No. 45678",
+          "cr0da_servicesoffered": "General Consultations, Preventive Health, Chronic Disease Management, Fever and Infections, Health Checkups",
+          "cr0da_rating": 4.8
+        },
+        {
+          "cr0da_doctorid": "97e82143-cecb-4071-919a-e41ffb927d34",
+          "cr0da_name": "Dr. Priya Reddy",
+          "cr0da_specialty": "Dentist",
+          "cr0da_qualifications": "BDS, MDS",
+          "cr0da_experienceyears": 10,
+          "cr0da_imageurl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/feaa806b-fc73-423e-b587-ace400161f1e/th",
+          "cr0da_Location@odata.bind": "/cr0da_locations(0d364264-746b-484c-abc3-64663730f736)",
+          "cr0da_nextavailableslot": "Tomorrow, 10:00 AM",
+          "cr0da_isavailable": true,
+          "cr0da_consultationfee": 600,
+          "cr0da_languages": "English, Hindi, Telugu, Tamil",
+          "cr0da_bio": "Dr. Priya Reddy is a skilled dentist with a decade of experience in comprehensive dental care. She excels in cosmetic dentistry, root canal treatments, and pediatric dentistry. Her gentle approach makes dental visits comfortable for patients of all ages.",
+          "cr0da_registrationnumber": "DCI Reg. No. 23456",
+          "cr0da_servicesoffered": "Dental Checkups, Teeth Cleaning, Root Canal, Cosmetic Dentistry, Pediatric Dentistry, Tooth Extraction",
+          "cr0da_rating": 4.7
+        },
+        {
+          "cr0da_doctorid": "f3cebd21-170b-411c-aa7d-7e652e618788",
+          "cr0da_name": "Dr. Vikram Singh",
+          "cr0da_specialty": "Physiotherapist",
+          "cr0da_qualifications": "BPT, MPT",
+          "cr0da_experienceyears": 8,
+          "cr0da_imageurl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/fdfe989e-0947-4d76-ac59-dac406a98ef0/th",
+          "cr0da_Location@odata.bind": "/cr0da_locations(79647bc1-2497-49ed-8883-86c5c410950e)",
+          "cr0da_nextavailableslot": "Today, 4:30 PM",
+          "cr0da_isavailable": true,
+          "cr0da_consultationfee": 450,
+          "cr0da_languages": "English, Hindi, Punjabi",
+          "cr0da_bio": "Dr. Vikram Singh specializes in musculoskeletal rehabilitation and sports injuries. With 8 years of experience, he employs evidence-based techniques and personalized treatment plans to help patients recover mobility and strength.",
+          "cr0da_registrationnumber": "IAP Reg. No. 78901",
+          "cr0da_servicesoffered": "Sports Injury Rehabilitation, Back Pain Treatment, Post-Surgery Rehabilitation, Arthritis Management, Pain Management",
+          "cr0da_rating": 4.6
+        },
+        {
+          "cr0da_doctorid": "48bfebdd-d7e1-4820-af0c-b3935c6efb7d",
+          "cr0da_name": "Dr. Meera Patel",
+          "cr0da_specialty": "Pediatrician",
+          "cr0da_qualifications": "MBBS, MD Pediatrics",
+          "cr0da_experienceyears": 12,
+          "cr0da_imageurl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/0ae4f674-2b4c-4e2c-8328-b751b8463b18/th",
+          "cr0da_Location@odata.bind": "/cr0da_locations(344c7d62-1269-4874-985a-7933b68408d4)",
+          "cr0da_nextavailableslot": "Tomorrow, 11:30 AM",
+          "cr0da_isavailable": true,
+          "cr0da_consultationfee": 550,
+          "cr0da_languages": "English, Hindi, Gujarati",
+          "cr0da_bio": "Dr. Meera Patel is a dedicated pediatrician with 12 years of experience caring for children from newborns to adolescents. She focuses on growth monitoring, immunizations, and childhood illness management with a warm and reassuring manner.",
+          "cr0da_registrationnumber": "MCI Reg. No. 34567",
+          "cr0da_servicesoffered": "Child Health Checkups, Vaccinations, Growth Monitoring, Childhood Illness Treatment, Developmental Assessment",
+          "cr0da_rating": 4.9
+        },
+        {
+          "cr0da_doctorid": "5d775a29-43f5-4d36-bc1a-f5c608306737",
+          "cr0da_name": "Dr. Rajesh Kumar",
+          "cr0da_specialty": "Cardiologist",
+          "cr0da_qualifications": "MBBS, MD, DM Cardiology",
+          "cr0da_experienceyears": 20,
+          "cr0da_imageurl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/9ecff59c-f5cd-422a-a73b-cda5fbab8f52/th",
+          "cr0da_Location@odata.bind": "/cr0da_locations(eaada8dd-b954-4f2a-a9b6-aa8495ea23a7)",
+          "cr0da_nextavailableslot": "Next Week, Monday 9:00 AM",
+          "cr0da_isavailable": true,
+          "cr0da_consultationfee": 800,
+          "cr0da_languages": "English, Hindi, Telugu, Marathi",
+          "cr0da_bio": "Dr. Rajesh Kumar is a renowned cardiologist with 20 years of expertise in diagnosing and treating cardiovascular conditions. He specializes in preventive cardiology, heart failure management, and interventional procedures with a patient-centered approach.",
+          "cr0da_registrationnumber": "MCI Reg. No. 12345",
+          "cr0da_servicesoffered": "Cardiac Evaluation, ECG and Echo, Heart Disease Management, Preventive Cardiology, Hypertension Treatment",
+          "cr0da_rating": 5
+        },
+        {
+          "cr0da_doctorid": "5da33c5a-a9e5-460a-9abb-5b4d4bdd95eb",
+          "cr0da_name": "Dr. Ananya Desai",
+          "cr0da_specialty": "Dermatologist",
+          "cr0da_qualifications": "MBBS, MD Dermatology",
+          "cr0da_experienceyears": 7,
+          "cr0da_imageurl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/4f2b33ce-143e-42b2-ace9-8196893a62f9/th",
+          "cr0da_Location@odata.bind": "/cr0da_locations(3e070715-453f-41c3-b79c-ae9775d56282)",
+          "cr0da_nextavailableslot": "Today, 5:00 PM",
+          "cr0da_isavailable": true,
+          "cr0da_consultationfee": 650,
+          "cr0da_languages": "English, Hindi, Marathi",
+          "cr0da_bio": "Dr. Ananya Desai is a board-certified dermatologist with 7 years of experience treating various skin, hair, and nail conditions. She combines medical dermatology with aesthetic procedures to help patients achieve healthy, radiant skin.",
+          "cr0da_registrationnumber": "IADVL Reg. No. 56789",
+          "cr0da_servicesoffered": "Acne Treatment, Skin Allergy Management, Hair Loss Treatment, Cosmetic Dermatology, Laser Treatments",
+          "cr0da_rating": 4.7
+        }
+      ],
+      "entity": {
+        "MetadataId": "73fad78a-49c0-47a9-bda5-c5f70704f3b6",
+        "Attributes": [
+          {
+            "MetadataId": "5280945c-6851-4d21-a98a-19d8493dc2a0",
+            "IsPrimaryName": true,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Name",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Name",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 850,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "da9de475-f28b-4e3c-be49-80422c3cbf87",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Specialty",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Specialty",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 100,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "454e7a1a-a112-49df-b6dc-8d7011b35deb",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Qualifications",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Qualifications",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 100,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "8b07436e-8fa4-4566-a401-50e2d22ada94",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_ExperienceYears",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Experience Years",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "Integer",
+            "AttributeTypeName": {
+              "Value": "IntegerType"
+            },
+            "MaxValue": 2147483647,
+            "MinValue": -2147483648,
+            "Format": "None",
+            "@odata.type": "Microsoft.Dynamics.CRM.IntegerAttributeMetadata"
+          },
+          {
+            "MetadataId": "c6ce47d0-f6aa-4296-a2d7-98a931610369",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_ImageURL",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Image URL",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 100,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "7c7f8944-7e50-4ea4-bc6e-58dd9e0b7844",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Location",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Location",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "Lookup",
+            "AttributeTypeName": {
+              "Value": "LookupType"
+            },
+            "Targets": [
+              "cr0da_location"
+            ],
+            "@odata.type": "Microsoft.Dynamics.CRM.LookupAttributeMetadata"
+          },
+          {
+            "MetadataId": "cb639812-f411-4bf3-88d4-414141e7eb64",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_NextAvailableSlot",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Next Available Slot",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 100,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "2d129543-886e-467c-96cc-b9d0374c7b77",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_IsAvailable",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Is Available",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "Boolean",
+            "AttributeTypeName": {
+              "Value": "BooleanType"
+            },
+            "DefaultValue": false,
+            "OptionSet": {
+              "IsCustomOptionSet": true,
+              "IsGlobal": false,
+              "IsCustomizable": {
+                "Value": true,
+                "CanBeChanged": false,
+                "ManagedPropertyLogicalName": "iscustomizable"
+              },
+              "IsManaged": false,
+              "ExternalTypeName": "",
+              "OptionSetType": "Boolean",
+              "Description": {
+                "LocalizedLabels": [
+                  {
+                    "Label": "",
+                    "LanguageCode": 1033
+                  }
+                ]
+              },
+              "DisplayName": {
+                "LocalizedLabels": [
+                  {
+                    "Label": "Is Available",
+                    "LanguageCode": 1033
+                  }
+                ]
+              },
+              "TrueOption": {
+                "Value": 1,
+                "IsManaged": false,
+                "ExternalValue": "",
+                "Label": {
+                  "LocalizedLabels": [
+                    {
+                      "Label": "Yes",
+                      "LanguageCode": 1033
+                    }
+                  ]
+                },
+                "Description": {
+                  "LocalizedLabels": []
+                }
+              },
+              "FalseOption": {
+                "Value": 0,
+                "IsManaged": false,
+                "ExternalValue": "",
+                "Label": {
+                  "LocalizedLabels": [
+                    {
+                      "Label": "No",
+                      "LanguageCode": 1033
+                    }
+                  ]
+                },
+                "Description": {
+                  "LocalizedLabels": []
+                }
+              }
+            },
+            "@odata.type": "Microsoft.Dynamics.CRM.BooleanAttributeMetadata"
+          },
+          {
+            "MetadataId": "a54993ac-becd-4f73-b543-539350ef6be9",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_ConsultationFee",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Consultation Fee",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "Money",
+            "AttributeTypeName": {
+              "Value": "MoneyType"
+            },
+            "ImeMode": "Auto",
+            "MaxValue": 922337203685477,
+            "MinValue": -922337203685477,
+            "PrecisionSource": 2,
+            "Precision": 2,
+            "IsBaseCurrency": false,
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata"
+          },
+          {
+            "MetadataId": "b8b0dd3e-3cc0-4fa3-ba4b-6f61cce5983c",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Languages",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Languages",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 100,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "82e89220-2998-41de-9914-46a7f6755ee4",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Bio",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Bio",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "Memo",
+            "AttributeTypeName": {
+              "Value": "MemoType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 2000,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.MemoAttributeMetadata"
+          },
+          {
+            "MetadataId": "4f31297b-d178-4ec3-bdba-854bf17faa5e",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_RegistrationNumber",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Registration Number",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 100,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "6b5dc266-6407-4b54-aedb-30a59f29e7bc",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_ServicesOffered",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Services Offered",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "Memo",
+            "AttributeTypeName": {
+              "Value": "MemoType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 2000,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.MemoAttributeMetadata"
+          },
+          {
+            "MetadataId": "2c9af3ab-82cb-465d-a0e5-5820a60aa6e9",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "cr0da_Rating",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Rating",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "Decimal",
+            "AttributeTypeName": {
+              "Value": "DecimalType"
+            },
+            "ImeMode": "Auto",
+            "MaxValue": 100000000000,
+            "MinValue": -100000000000,
+            "Precision": 2,
+            "@odata.type": "Microsoft.Dynamics.CRM.DecimalAttributeMetadata"
+          }
+        ],
+        "OwnershipType": "UserOwned",
+        "PrimaryNameAttribute": "cr0da_name",
+        "SchemaName": "cr0da_Doctor",
+        "HasNotes": false,
+        "HasActivities": false,
+        "IsAvailableOffline": false,
+        "IsActivity": false,
+        "ActivityTypeMask": 0,
+        "IsSolutionAware": false,
+        "Description": {
+          "LocalizedLabels": [
+            {
+              "Label": "Medical professionals providing services at Docty Clinics",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayCollectionName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Doctors",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Doctor",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "IsAuditEnabled": {
+          "Value": false
+        },
+        "IsValidForQueue": {
+          "Value": false
+        },
+        "IsConnectionsEnabled": {
+          "Value": false
+        },
+        "IsDuplicateDetectionEnabled": {
+          "Value": true
+        },
+        "IsDocumentManagementEnabled": false,
+        "EntityColor": null,
+        "IsRetentionEnabled": false,
+        "SyncToExternalSearchIndex": false,
+        "AutoRouteToOwnerQueue": false,
+        "IsSLAEnabled": false,
+        "IsQuickCreateEnabled": false,
+        "IsActivityParty": false,
+        "HasFeedback": false,
+        "AutoCreateAccessTeams": false,
+        "ChangeTrackingEnabled": false,
+        "IsKnowledgeManagementEnabled": false,
+        "EntityHelpUrlEnabled": false,
+        "EntityHelpUrl": null,
+        "IsMailMergeEnabled": {
+          "Value": true
+        },
+        "IsOfflineInMobileClient": {
+          "Value": false
+        },
+        "ManyToOneRelationships": [
+          {
+            "MetadataId": "35419e98-41df-4847-a80c-24201e24b540",
+            "SchemaName": "cr0da_Doctor_cr0da_Location_cr0da_Location",
+            "ReferencingAttribute": "cr0da_location",
+            "ReferencedEntity": "cr0da_location",
+            "ReferencingEntity": "cr0da_doctor",
+            "ReferencedAttribute": "cr0da_locationid",
+            "ReferencingEntityNavigationPropertyName": "cr0da_Location",
+            "RelationshipType": "OneToManyRelationship",
+            "IsCustomRelationship": true,
+            "IsValidForAdvancedFind": true,
+            "IsCustomizable": {
+              "Value": true,
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "iscustomizable"
+            },
+            "CascadeConfiguration": {
+              "Assign": "NoCascade",
+              "Delete": "RemoveLink",
+              "Merge": "NoCascade",
+              "Reparent": "NoCascade",
+              "Share": "NoCascade",
+              "Unshare": "NoCascade",
+              "RollupView": "NoCascade",
+              "Archive": "RemoveLink"
+            },
+            "@odata.type": "Microsoft.Dynamics.CRM.OneToManyRelationshipMetadata"
+          }
+        ],
+        "@odata.type": "Microsoft.Dynamics.CRM.EntityMetadata"
+      },
+      "dataPayloadFormat": "Dataverse",
+      "tableSourceType": "DataModelProposal"
+    }
+  ]
+}
