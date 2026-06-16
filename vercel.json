@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd app/patient-app && npm run build",
-  "outputDirectory": "app/patient-app/.next",
-  "installCommand": "cd app/patient-app && npm install"
+  "buildCommand": "cd apps/patient-app && npm run build",
+  "outputDirectory": "apps/patient-app/dist",
+  "installCommand": "cd apps/patient-app && npm install"
 }
